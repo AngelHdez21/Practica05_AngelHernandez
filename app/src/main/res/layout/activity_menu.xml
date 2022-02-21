@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grupo2"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/our_menu"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_cold_drinks"
+        android:text="@string/cold_drinks"
+        android:textColor="@color/dusty_white"
+        android:background="@drawable/first_gradient"
+        android:paddingHorizontal="20dp"
+        android:layout_marginEnd="2dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingVertical="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_hot_drinks"
+        android:text="@string/hot_drinks"
+        android:textColor="@color/dusty_white"
+        android:background="@drawable/second_gradient"
+        android:paddingHorizontal="20dp"
+        android:layout_marginEnd="2dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingVertical="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/welcome_description"
+        android:textAlignment="center"
+        android:textColor="#757575"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="219dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_button"
+        android:text="@string/button_start"
+        android:textColor="@color/white" />
+
+</LinearLayout>
